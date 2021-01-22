@@ -8,7 +8,7 @@
     position: relative;
     margin: auto;
     height: 100vh;
-    width: 70vw;
+    width: 80vw;
     background-position: center;
     background-size: cover;
     border: 2px solid black;
@@ -36,9 +36,11 @@
 
 .name{
     display: none;
+    text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 50px;
     background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
     border-radius: 10px;
     position: absolute;
     top: 50%;
@@ -52,4 +54,8 @@
 
 .city:hover .name{
     display: block;
+}
+
+.name:hover{
+    font-size: 75PX;
 }
