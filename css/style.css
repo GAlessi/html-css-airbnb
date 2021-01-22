@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* propietà principali */
 .city{
     position: relative;
     margin: auto;
@@ -22,18 +23,6 @@
     border-radius: 20px;
 }
 
-#minastirith{
-    background-image: url(../img/minastirith.jpg);
-}
-
-#hobbiville{
-    background-image: url(../img/hobbiville.jpg);
-}
-
-#granburrone{
-    background-image: url(../img/granburrone.png);
-}
-
 .name{
     display: none;
     text-decoration: none;
@@ -48,6 +37,21 @@
     transform: translate(-50%, -50%);
 }
 
+/* raccolta backgrounds */
+#minastirith{
+    background-image: url(../img/minastirith.jpg);
+}
+
+#hobbiville{
+    background-image: url(../img/hobbiville.jpg);
+}
+
+#granburrone{
+    background-image: url(../img/granburrone.png);
+}
+
+
+/* propietà Hover */
 .city:hover .cover{
     display: none;
 }
